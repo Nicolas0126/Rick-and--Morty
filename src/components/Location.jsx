@@ -22,7 +22,7 @@ const Location = ({ location, setLocation }) => {
     <section className="flex flex-col gap-6" >
       {/* Input de búsqueda */}
       <div className=" w-[220px] sm:w-[300px] m-auto relative flex justify-center items-center">
-      <img className="portal m-auto" src="/public/portal4.png" alt="" />
+      <img className="portal m-auto" src="/portal4.png" alt="" />
       <img className="w-[300px] absolute z-10 left-0 " src="/title.png" alt="" />
       </div>
       <form onSubmit={handleSubmit} className="flex justify-center p-6  " action="">
