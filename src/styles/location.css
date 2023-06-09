@@ -1,0 +1,14 @@
+.portal {
+    animation: portal 10s infinite linear;
+    transform-origin: bottom bottom ;
+    border: 3px black;
+}
+
+@keyframes portal {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
